@@ -74,13 +74,13 @@ header.top{position:sticky;top:0;z-index:40;background:linear-gradient(180deg,va
 
 /* equipment chips with check */
 .eqgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
-.eqchip{cursor:pointer;display:flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--panel);border-radius:var(--rad);padding:11px 13px;transition:.14s;text-align:left}
+.eqchip{cursor:pointer;display:flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--panel);border-radius:var(--rad);padding:11px 13px;transition:.14s;text-align:left;color:var(--chalk)}
 .eqchip:hover{border-color:var(--line-2)}
 .eqchip.on{border-color:var(--lime);background:var(--panel-2)}
 .eqchip .bx{flex:none;width:17px;height:17px;border:1px solid var(--line-2);border-radius:3px;display:grid;place-items:center}
 .eqchip.on .bx{background:var(--lime);border-color:var(--lime)}
 .eqchip.on .bx svg{width:11px;height:11px;stroke:#11140f}
-.eqchip .lb{font-size:13px;font-weight:600}
+.eqchip .lb{font-size:13px;font-weight:600;color:var(--chalk)}
 .eqchip .lb small{display:block;font-weight:400;color:var(--fog);font-size:11px;font-family:'SF Mono',monospace}
 .eqchip:focus-visible{outline:2px solid var(--lime);outline-offset:2px}
 .loc-presets{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
